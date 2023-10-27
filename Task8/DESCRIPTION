@@ -1,0 +1,11 @@
+Package: mypackage
+Type: Package
+Title: knapsack solving functions
+Version: 0.1.0
+Author: Sebastian Hedberg & Josefin Venemyr
+Maintainer: Josefin Venemyr <JosefinVenemyr@somewhere.net>
+Description: Two function package.    brute_force_knapsack compares all possible combinations of items from a given data frame of size n x 2 in a knapsack with max weight W.    greedy_knapsack fills the knapsack with the highest value to weight ratio items, in descending order until the knapsack limit is reached. 
+License: S&J
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
